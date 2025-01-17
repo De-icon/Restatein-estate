@@ -11,7 +11,7 @@ export const Hero2 = () => {
       
       <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
 
-        <h2 className="mb-8  font-bold text-AbsoluteWhite font-Font sm:text-5xl md:mb-12 md:text-6xl ">Discover Your Dream Property with Estatein</h2>
+        <h2 className="mb-8  font-bold text-AbsoluteWhite font-Font text-3xl sm:text-5xl md:mb-12 md:text-6xl ">Discover Your Dream Property with Estatein</h2>
 
         <p className="mb-8 leading-relaxed font-Font text-base text-gray60 md:mb-12 lg:w-4/5 xl:text-lg">Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams.</p>
 

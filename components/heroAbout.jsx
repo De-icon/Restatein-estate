@@ -12,7 +12,7 @@ export const HeroAbout = () => {
       
       <div className="flex flex-col justify-center sm:text-center lg:py-12 lg:text-left xl:w-5/12 xl:py-24">
         <Image alt="image" src={Star} className=' w-20' />
-        <h2 className="mb-8  font-bold text-AbsoluteWhite font-Font sm:text-5xl md:mb-12 md:text-6xl ">Our Journey</h2>
+        <h2 className="mb-8  font-bold text-AbsoluteWhite font-Font text-3xl sm:text-5xl md:mb-12 md:text-6xl ">Our Journey</h2>
 
         <p className="mb-8 leading-relaxed font-Font text-base text-gray60 md:mb-12 lg:w-5/5 xl:text-lg">Our story is one of continuous growth and evolution. We started as a small team with big dreams, determined to create a real estate platform that transcended the ordinary. Over the years, we have expanded our reach, forged valuable partnerships, and gained the trust of countless clients.</p>
 

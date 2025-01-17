@@ -8,7 +8,7 @@ export const CallToAction = () => {
             <div className="mx-auto max-w-screen-2xl px-6 md:px-16">
                 <div className="flex flex-col items-center justify-between gap-5 rounded-lg p-4 sm:flex-row md:p-8 ">
                     <div>
-                        <h1 className="font-bold text-AbsoluteWhite font-Font mb-10 ">Start Your Real Estate Journey Today</h1>
+                        <h1 className="font-bold text-AbsoluteWhite text-2xl sm:text-5xl md:text-6xl font-Font mb-10 ">Start Your Real Estate Journey Today</h1>
                         <p className="text-gray50 font-Font">Your dream property is just a click away. Whether you are looking for a new home, a strategic investment, or expert real estate advice, Estatein is here to assist you every step of the way. Take the first step towards your real estate goals and explore our available properties or get in touch with our team for personalized assistance.</p>
                     </div>
 

@@ -83,7 +83,7 @@ export const FaqSlider = () => {
               <div>
                 <h3 className="text-bold mb-6 font-Font">{faq.title}</h3>
                 <p className="text-gray50 mb-7">{faq.comment}</p>
-                <div className="p-5 w-20 bg-gray15 hover:bg-gray10 rounded-md cursor-pointer">
+                <div className="p-5 w-32 bg-gray15 hover:bg-gray10 rounded-md cursor-pointer">
                   Read more
                 </div>
               </div>

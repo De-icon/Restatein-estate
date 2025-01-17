@@ -99,7 +99,7 @@ export const TestimonialsSlider = () => {
           </div>
         ))}
       </Slider>
-      <div className=' absolute -bottom-16 md:hidden font-Font text-[14px] lg:text[18px] inline-flex items-center justify-center h-10 px-6 font-medium tracking-wide text-AbsoluteWhite transition duration-200 bg-gray10 hover:bg-gray15  rounded-md cursor-pointer w-44'>View All Testimonials</div>
+      <div className=' absolute -bottom-16 md:hidden font-Font text-[14px] lg:text[18px] inline-flex items-center justify-center h-10 px-5 font-medium tracking-wide text-AbsoluteWhite transition duration-200 bg-gray10 hover:bg-gray15  rounded-md cursor-pointer w-44'>View All Testimonials</div>
       <div className=' absolute right-12 md:left-0 -bottom-14'>
         <p>{value} 0f {TestimonialsData.length}</p>
       </div>

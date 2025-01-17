@@ -22,7 +22,7 @@ export default function About() {
       <div className="flex flex-col items-center justify-between md:px-16 px-5  py-8 lg:py-10 gap-6 sm:gap-10 md:gap-16 lg:flex-row">
         <div className="flex flex-col justify-center sm:text-center lg:text-left xl:w-5/12 xl:py-16">
         <Image alt="image" src={Star} className=' w-16' />
-          <h1 className="mb-8  font-bold text-AbsoluteWhite font-Font sm:text-5xl md:mb-12 md:text-6xl ">Our Values</h1>
+          <h1 className="mb-8  font-bold text-AbsoluteWhite text-2xl font-Font sm:text-5xl md:mb-12 md:text-6xl ">Our Values</h1>
           <p className="mb-10 leading-relaxed font-Font text-base text-gray60  lg:w-5/5 xl:text-lg">Our story is one of continuous growth and evolution. We started as a small team with big dreams, determined to create a real estate platform that transcended the ordinary.</p>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 bg-gray10 p-5 rounded-md'>
@@ -60,7 +60,7 @@ export default function About() {
       <div className=" md:px-16 px-5  py-8 lg:py">
         <div className="flex flex-col justify-center sm:text-center lg:text-left xl:w-full xl:py-16">
           <Image alt="image" src={Star} className=' w-16' />
-            <h1 className="mb-8  font-bold text-AbsoluteWhite font-Font sm:text-5xl md:mb-12 md:text-6xl ">Our Achievements</h1>
+            <h1 className="mb-8  font-bold text-AbsoluteWhite font-Font text-2xl sm:text-5xl md:mb-12 md:text-6xl ">Our Achievements</h1>
             <p className="mb-10 leading-relaxed font-Font text-base text-gray60 lg:w-4/5 xl:text-lg">Our story is one of continuous growth and evolution. We started as a small team with big dreams, determined to create a real estate platform that transcended the ordinary.</p>
         </div>
 
@@ -84,7 +84,7 @@ export default function About() {
       <div className=" md:px-16 px-5  py-8 lg:py">
         <div className="flex flex-col justify-center sm:text-center lg:text-left xl:w-full xl:py-16">
           <Image alt="image" src={Star} className=' w-16' />
-            <h1 className="mb-8  font-bold text-AbsoluteWhite font-Font sm:text-5xl md:mb-12 md:text-6xl ">Navigating the Estatein Experience</h1>
+            <h1 className="mb-8  font-bold text-AbsoluteWhite font-Font text-2xl sm:text-5xl md:mb-12 md:text-6xl ">Navigating the Estatein Experience</h1>
             <p className="mb-10 leading-relaxed font-Font text-base text-gray60 lg:w-4/5 xl:text-lg">At Estatein, we have designed a straightforward process to help you find and purchase your dream property with ease. Heres a step-by-step guide to how it all works.</p>
         </div>
 
@@ -139,7 +139,7 @@ export default function About() {
       <div className=" md:px-16 px-5  py-8 lg:py">
         <div className="flex flex-col justify-center sm:text-center lg:text-left xl:w-full xl:py-16">
           <Image alt="image" src={Star} className=' w-16' />
-            <h1 className="mb-8  font-bold text-AbsoluteWhite font-Font sm:text-5xl md:mb-12 md:text-6xl ">Meet the Estatein Team</h1>
+            <h1 className="mb-8  font-bold text-AbsoluteWhite font-Font text-2xl sm:text-5xl md:mb-12 md:text-6xl ">Meet the Estatein Team</h1>
             <p className="mb-10 leading-relaxed font-Font text-base text-gray60 lg:w-4/5 xl:text-lg">At Estatein, our success is driven by the dedication and expertise of our team. Get to know the people behind our mission to make your real estate dreams a reality.</p>
         </div>
 
