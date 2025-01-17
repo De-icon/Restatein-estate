@@ -74,8 +74,8 @@ export const FeaturedSlider = () => {
       <Slider {...settings}>
         {Properties.map((property, i) => (
           <div key={i} className="w-full overflow-hidden font-Font">
-            <div className="p-5 w-[280px] sm:w-[300px] my-brakepoint:w-[320px] border-t-8 border-gray60 rounded-md bg-gray10 flex flex-col gap-6">
-              <div className=" w-[280px] my-brakepoint:w-[320px] sm:w-[300px]">
+            <div className="p-5 w-[280px] sm:w-[340px] my-brakepoint:w-[320px] border-t-8 border-gray60 rounded-md bg-gray10 flex flex-col gap-6">
+              <div className=" w-[280px] my-brakepoint:w-[300px] sm:w-[300px]">
                 <Image alt="image" className="object-contain w-full" src={property.image} />
               </div>
               <div className="flex flex-col gap-3 w-[300px]">
@@ -101,7 +101,7 @@ export const FeaturedSlider = () => {
                   <p className="text-gray40 text-[14px]">Price</p>
                   <p className="font-semibold">{property.price}</p>
                 </div>
-                <div className="font-Font text-[10px] sm:text-[14px] inline-flex items-center justify-center h-10 px-6 font-medium tracking-wide text-AbsoluteWhite transition duration-200 bg-purple60 hover:bg-purple65 rounded-md cursor-pointer w-48">
+                <div className="font-Font text-[10px] sm:text-[14px] inline-flex items-center justify-center h-10 px-4 font-medium tracking-wide text-AbsoluteWhite transition duration-200 bg-purple60 hover:bg-purple65 rounded-md cursor-pointer w-48">
                   View Property Details
                 </div>
               </div>

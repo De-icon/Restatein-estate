@@ -6,6 +6,8 @@ import Slider from "react-slick";
 import { NextArrow } from './nextArrow';
 import { PrevArrow } from './prevArrow';
 import { useState, useEffect } from 'react';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 
 
@@ -33,31 +35,33 @@ export const FaqSlider = () => {
   const settings = {
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: slideToShow,  // Use the dynamic slideToShow value
     slidesToScroll: 1,
     arrows: true,
     autoplaySpeed: 2000,
     pauseOnHover: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
-
     responsive: [
       {
         breakpoint: 1280,
         settings: {
           slidesToShow: 3,
+          slidesToScroll: 1
         },
       },
       {
         breakpoint: 890,
         settings: {
           slidesToShow: 2,
+          slidesToScroll: 1
         },
       },
       {
         breakpoint: 750,
         settings: {
           slidesToShow: 1,
+          slidesToScroll: 1
         },
       },
     ],
@@ -71,16 +75,18 @@ export const FaqSlider = () => {
   };
 
   return (
-    <div className="relative">
-      <Slider {...settings}>
+    <div className="relative w-full">
+      <Slider {...settings} className="w-full">
         {FaqData.map((faq, i) => (
-          <div key={i} className="w-full overflow-hidden font-Font">
-            <div className="p-5 w-[280px] sm:w-[300px] my-brakepoint:w-[320px] border-t-8 border-gray60 rounded-md bg-gray10 flex flex-col gap-6 font-Font">
-                <div>
-                <h3 className=' text-bold mb-6 font-Font'>{faq.title}</h3>
-                <p className='text-gray50 mb-7'>{faq.comment}</p>
-                <div className=' p-5 w-20 bg-gray15 hover:bg-gray10 rounded-md cursor-pointer'>Read more</div>
+          <div key={i} className="px-2">
+            <div className="p-5 border-t-8 border-gray60 rounded-md bg-gray10 flex flex-col gap-6 font-Font h-full">
+              <div>
+                <h3 className="text-bold mb-6 font-Font">{faq.title}</h3>
+                <p className="text-gray50 mb-7">{faq.comment}</p>
+                <div className="p-5 w-20 bg-gray15 hover:bg-gray10 rounded-md cursor-pointer">
+                  Read more
                 </div>
+              </div>
             </div>
           </div>
         ))}
@@ -90,5 +96,8 @@ export const FaqSlider = () => {
         <p>{value} 0f {FaqData.length}</p>
       </div>
     </div>
+      
   );
 };
+
+
